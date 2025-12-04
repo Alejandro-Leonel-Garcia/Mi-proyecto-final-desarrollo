@@ -12,6 +12,9 @@ body {
   background-color: rgba(128, 128, 128, 0.282);
 }
 
+
+
+
 /* Header menu hamburguesa y menú */
 .hamburguesa {
   color: white;
@@ -30,6 +33,7 @@ header {
   align-items: center;
   background-color: black;
   padding: 10px 30px;
+  
 }
 header nav ul {
   display: flex;
@@ -80,9 +84,6 @@ main .encabezado .sub-titulo {
   border-radius: 15px;
   box-shadow: 0 0 10px;
   color: black;
-}
-main {
-  /* Fotos del index */
 }
 main .fotos {
   display: grid;
@@ -305,5 +306,32 @@ main .servi .container .row .card:hover::after {
     font-size: 30px;
   }
 }
+
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#svg {
+    position: relative;
+    width: 1500px;
+    height: 600px;
+}
+
+#background {
+    filter: url("#disFilter");
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 4%;
+    overflow: hidden;    
+    }
 
 /*# sourceMappingURL=style.css.map */

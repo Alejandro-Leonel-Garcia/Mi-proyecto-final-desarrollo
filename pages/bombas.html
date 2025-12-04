@@ -108,6 +108,41 @@
         </div>
     </section>
 
+    <!-- creando animaciones -->
+    <section class="animaciones">
+        <div class="caja">
+            <img src="../assets/img/logo.jpg" width="200px" alt="logo">
+            <P class="arriba">MAS DE 50</P>
+            <p class="abajo">AÑOS CUMPLIENDO</p>
+        </div>
+    </section>
+
+    <svg id="svg">
+        <defs>
+            <filter id="disFilter">
+                <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="3" seed="1" result="turbulence">
+                    <animate attributeName="baseFrequency" values="0.01;0.005;0.01;" dur="30s" begin="0"
+                        repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R"
+                    yChannelSelector="B" result="displacement" />
+            </filter>
+        </defs>
+        <g id="background">
+            <image xlink:href="https://klevron.github.io/codepen/misc/water-texture.jpg" x="0" y="0" height="100%"
+                width="100%" preserveAspectRatio="xMidYMid slice" />
+        </g>
+    </svg>
+    <div id="main">
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence" target="_blank"></a>
+            </li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+
     <footer class="informacion">
         <ul>
             <li>CONTACTO</li>

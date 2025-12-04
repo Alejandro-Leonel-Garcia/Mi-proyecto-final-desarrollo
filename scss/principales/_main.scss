@@ -34,8 +34,7 @@ main {
     }
     }
 
-    /* Fotos del index */    
-    .fotos {
+      .fotos {
       @include mixin.grid(grid,center,center);
       height: auto;
       grid-template-columns: 1fr 1fr 1fr;

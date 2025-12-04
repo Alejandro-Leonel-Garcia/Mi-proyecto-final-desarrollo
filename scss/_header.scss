@@ -19,7 +19,7 @@ header {
   @include mixin.flex-center(flex,space-between,center);
   background-color: variables.$color-primero;
   padding: 10px 30px;
-  
+    
   nav {
     ul {
       display: flex;
